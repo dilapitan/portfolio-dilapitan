@@ -112,7 +112,7 @@
 
     <v-card color="background" flat height="100%">
       <v-main>
-        <br />
+        <template v-if="$vuetify.breakpoint.mdAndUp"> <br /><br /> </template>
         <router-view />
       </v-main>
     </v-card>
