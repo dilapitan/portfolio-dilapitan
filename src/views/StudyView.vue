@@ -1,9 +1,10 @@
 <template>
-  <v-container> Home </v-container>
+  <v-container>Study</v-container>
 </template>
+
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Study',
 }
 </script>

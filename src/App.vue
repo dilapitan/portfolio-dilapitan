@@ -9,7 +9,7 @@
     >
       <br /><br />
       <v-list>
-        <v-list-item to="#">
+        <v-list-item href="https://dilapitan.dev/" target="_blank">
           <v-list-item-content>
             <v-list-item-title>
               <span class="text-none">Profile</span>
@@ -17,7 +17,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="#">
+        <v-list-item to="/">
           <v-list-item-content>
             <v-list-item-title>
               <span class="text-none">Projects</span>
@@ -25,7 +25,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="#">
+        <v-list-item to="/study">
           <v-list-item-content>
             <v-list-item-title>
               <span class="text-none">Study</span>
@@ -33,7 +33,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="#">
+        <v-list-item to="/tags">
           <v-list-item-content>
             <v-list-item-title>
               <span class="text-none">Tags</span>
@@ -41,7 +41,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="#">
+        <v-list-item href="https://codepen.io/dilapitan" target="_blank">
           <v-list-item-content>
             <v-list-item-title>
               <span class="text-none">Codepen</span>
@@ -49,7 +49,7 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item to="#">
+        <v-list-item href="https://github.com/dilapitan" target="_blank">
           <v-list-item-content>
             <v-list-item-title>
               <span class="text-none">Github</span>
@@ -84,22 +84,22 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn text>
+      <v-btn text href="https://dilapitan.dev/" target="_blank">
         <span class="text-none"> Profile </span>
       </v-btn>
-      <v-btn text>
+      <v-btn text to="/">
         <span class="text-none"> Projects </span>
       </v-btn>
-      <v-btn text>
+      <v-btn text to="/study">
         <span class="text-none"> Study </span>
       </v-btn>
-      <v-btn text>
+      <v-btn text to="/tags">
         <span class="text-none"> Tags </span>
       </v-btn>
-      <v-btn text>
+      <v-btn text href="https://codepen.io/dilapitan" target="_blank">
         <span class="text-none"> Codepen </span>
       </v-btn>
-      <v-btn text>
+      <v-btn text href="https://github.com/dilapitan" target="_blank">
         <span class="text-none"> Github </span>
       </v-btn>
     </v-app-bar>

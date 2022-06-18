@@ -1,10 +1,10 @@
 <template>
-  <v-container>About</v-container>
+  <v-container>Tags</v-container>
 </template>
 
 
 <script>
 export default {
-  name: 'About',
+  name: 'Tags',
 }
 </script>
