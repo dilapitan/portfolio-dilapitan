@@ -79,7 +79,7 @@
         src="@/assets/dominic.png"
         class="shrink mr-2"
         contain
-        width="40"
+        :width="`${$vuetify.breakpoint.mdAndUp ? '60' : '40'}`"
       ></v-img>
 
       <v-btn text>
