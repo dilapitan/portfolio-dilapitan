@@ -64,7 +64,11 @@
       app
       color="background"
       elevation="0"
-      class="pr-10 pl-10 pt-5"
+      :class="{
+        'pl-10': $vuetify.breakpoint.mdAndUp,
+        'pr-10': $vuetify.breakpoint.mdAndUp,
+        'pt-10': $vuetify.breakpoint.mdAndUp,
+      }"
     >
       <v-app-bar-nav-icon
         v-if="$vuetify.breakpoint.xsOnly"
