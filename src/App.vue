@@ -64,6 +64,7 @@
       app
       color="background"
       elevation="0"
+      class="pr-10 pl-10 pt-5"
     >
       <v-app-bar-nav-icon
         v-if="$vuetify.breakpoint.xsOnly"
@@ -78,7 +79,7 @@
       ></v-img>
 
       <v-btn text>
-        <span class="mr-2 text-h6 text-none">Dominic</span>
+        <span class="mr-2 text-h6 text-none font-weight-bold">Dominic</span>
       </v-btn>
 
       <v-spacer></v-spacer>
