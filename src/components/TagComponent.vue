@@ -32,8 +32,14 @@ export default {
     style(value) {
       // TODO: Get Database here for Tags in Firebase and to be stored in Store
 
-      const data = this.tags.filter((tag) => value === tag.label)
-      const { backgroundColor, textColor } = data[0]
+      const data = this.tags.find((tag) => value === tag.label)
+      if (data === undefined) {
+        this.backgroundColor = '#ECEFF1'
+        this.textColor = '#000000'
+        return value
+      }
+
+      const { backgroundColor, textColor } = data
 
       this.backgroundColor = backgroundColor
       this.textColor = textColor

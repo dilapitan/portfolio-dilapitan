@@ -30,6 +30,12 @@ export default new Vuex.Store({
         backgroundColor: '#000000',
         textColor: '#FFFFFF',
       },
+      {
+        id: 5,
+        label: '#tensorflow',
+        backgroundColor: '#F78B00',
+        textColor: '#FFFFFF',
+      },
     ],
     projects: [
       {
