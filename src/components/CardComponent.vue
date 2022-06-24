@@ -1,5 +1,5 @@
 <template>
-  <v-card class="pa-2" outlined tile height="190" max-height="190">
+  <v-card class="pa-2" outlined tile height="190" max-height="190" hover>
     <v-card-title>{{ data.title }}</v-card-title>
     <v-card-subtitle>{{ data.short }}</v-card-subtitle>
 
