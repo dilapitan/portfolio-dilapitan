@@ -55,6 +55,7 @@ export default new Vuex.Store({
         projectName: 'daily-reading-counter',
       },
     ],
+    studies: [],
   },
   mutations: {},
   actions: {},
