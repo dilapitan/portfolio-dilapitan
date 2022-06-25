@@ -46,7 +46,7 @@ export default new Vuex.Store({
         projectName: 'pollimac-tf',
         long: {
           howItWorks: `The user uploads an image of a pollen and the app gives a list of species with accuracy
-            percentage with the highest is the identified species of the pollen image. The model has a 98.06% accuracy.`,
+            percentages, with the highest is the identified species of the pollen image. The model has a 98.06% accuracy.`,
           howItWasBuilt: `The app uses a part of Tensorflow that was built on top of trained model for image classification.
           The trained model was retrained given a series of pollen images and uses Transfer Learning. The retrained model
           was then used by a backend that was built on Node that throws the results in the front end, built on Vue,
