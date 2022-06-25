@@ -63,8 +63,12 @@ export default new Vuex.Store({
         tags: ['#vue', '#node', '#notion-api'],
         projectName: 'test-me-at-aws',
         long: {
-          howItWorks: 'This is how it works',
+          howItWorks: `The user can choose any category for the set of questions and just start
+          using the app like how one would use flashcards.`,
+          howItWasBuilt: `My Notion already has these questions and answers. I just used the Notion API
+          with Node to create a backend service that throws the data back and display it in the UI.`,
         },
+        projectImageLink: 'test-me-at-aws.png',
       },
       {
         id: 3,
