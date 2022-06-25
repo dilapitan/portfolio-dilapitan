@@ -77,8 +77,14 @@ export default new Vuex.Store({
         tags: ['#vue'],
         projectName: 'daily-reading-counter',
         long: {
-          howItWorks: 'This is how it works',
+          howItWorks: `The user can just configure the sessions where the book will be read (e.g. morning, lunch, etc.), then enter the starting page,
+          and enter how many pages to be read in each session. I created this to drill myself in reading, and since it's
+          hassle to do calculation every time I read, the app was built.`,
+          howItWasBuilt: `
+            This was just built using simple Vue JS with some book pages calculations in the background.
+          `,
         },
+        projectImageLink: 'daily-reading-counter.png',
       },
     ],
     studies: [],
