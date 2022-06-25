@@ -44,6 +44,16 @@ export default new Vuex.Store({
         short: 'Pollen Image Classifier using TensorFlow built on the Web',
         tags: ['#tensorflow', '#vue', '#node'],
         projectName: 'pollimac-tf',
+        long: {
+          howItWorks: `The user uploads an image of a pollen and the app gives a list of species with accuracy
+            percentage with the highest is the identified species of the pollen image. The model has a 98.06% accuracy.`,
+          howItWasBuilt: `The app uses a part of Tensorflow that was built on top of trained model for image classification.
+          The trained model was retrained given a series of pollen images and uses Transfer Learning. The retrained model
+          was then used by a backend that was built on Node that throws the results in the front end, built on Vue,
+          to display the image in a User Interface.
+          `,
+        },
+        projectImageLink: 'pollimac-tf.png',
       },
       {
         id: 2,
@@ -52,6 +62,9 @@ export default new Vuex.Store({
           'A Flashcard App on SAA-AWS topics on the exploration of Notion API',
         tags: ['#vue', '#node', '#notion-api'],
         projectName: 'test-me-at-aws',
+        long: {
+          howItWorks: 'This is how it works',
+        },
       },
       {
         id: 3,
@@ -59,6 +72,9 @@ export default new Vuex.Store({
         short: 'Number of Pages generator given a Page and a Session',
         tags: ['#vue'],
         projectName: 'daily-reading-counter',
+        long: {
+          howItWorks: 'This is how it works',
+        },
       },
     ],
     studies: [],
